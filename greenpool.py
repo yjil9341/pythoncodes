@@ -9741,4 +9741,4 @@ beg = time.time()
 pool = eventlet.GreenPool()
 for body in pool.imap(fetch, urls): pass
 ##    print("got body", len(body))
-print "Run time was: %ss" %(str(time.time-beg))
+print "Run time was:" , str(time.time-beg) ,"s"
